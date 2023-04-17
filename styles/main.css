@@ -1,0 +1,201 @@
+@import "header.css";
+@import "contacts.css";
+@import "footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: silver; /*test*/
+  width: 100%;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+a,
+p {
+  letter-spacing: -0.03em;
+}
+.container {
+  min-width: 1400px;
+  margin: 0 auto;
+  background-color: white;
+}
+.intro,
+.about,
+.projects,
+.services,
+.contacts,
+.full_size_section {
+  width: 1150px;
+  margin: 0 auto;
+}
+.title_intro {
+  font-size: 60px;
+  line-height: 60px;
+  width: 956px;
+}
+.img_intro {
+  background-image: url("../resources/picture-1.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1150px;
+  height: 500px;
+
+  margin-top: 30px;
+}
+.text_wrapper {
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+
+  width: 430px;
+
+  left: 40px;
+  bottom: 40px;
+}
+
+.title_about {
+  font-size: 18px;
+  line-height: 25px;
+
+  margin-top: 150px;
+}
+.info_about {
+  font-size: 45px;
+  line-height: 61px;
+  width: 1048px;
+  margin-top: 30px;
+}
+.btn_services {
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  background-color: #ad1818;
+  border: #ad1818;
+  cursor: pointer;
+  display: inline-block;
+
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding: 20px 40px;
+
+  margin-top: 30px;
+}
+.title_projects {
+  font-size: 18px;
+  line-height: 25px;
+
+  margin-top: 150px;
+}
+
+.item_picture {
+  margin-top: 90px;
+  width: 1150px;
+}
+
+.item_picture:first-child {
+  margin-top: 30px;
+}
+
+.item_info {
+  font-size: 30px;
+  line-height: 41px;
+  width: 542px;
+  margin-top: 15px;
+}
+.link_details {
+  font-family: "Manrope";
+  width: 127px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ad1818;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+
+  margin-top: 15px;
+}
+.btn_all_projects {
+  width: 1150px;
+  height: 153px;
+
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+  color: #ad1818;
+  text-decoration: none;
+
+  transition-duration: 0.2s;
+  cursor: pointer;
+  display: block;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+
+  margin-top: 90px;
+}
+.btn_all_projects:hover {
+  color: white;
+  background-color: #ad1818;
+}
+.projects {
+  padding-bottom: 150px;
+}
+.container-black {
+  min-width: 1400px;
+  margin: 0 auto;
+  background-color: black;
+}
+.title_services {
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  padding-top: 151px;
+  padding-bottom: 34px;
+}
+
+.img_services {
+  width: 1150px;
+}
+
+.info_services {
+  font-size: 30px;
+  line-height: 41px;
+  color: white;
+
+  width: 661px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.info_services:last-child {
+  padding-bottom: 150px;
+}
+.full-size {
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../resources/full_scrn_picture.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  height: 717px;
+}
+.full_size_wrapper {
+  position: absolute;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+  bottom: 60px;
+
+  width: 443px;
+}

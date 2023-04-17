@@ -1,0 +1,43 @@
+.navigation_section {
+  margin: 0 auto;
+  width: 1150px;
+  padding-top: 33px;
+  padding-bottom: 73px;
+}
+
+.logo_link {
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+  width: 126px;
+  height: 21px;
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 552px;
+}
+
+.navigation_link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  text-decoration: none;
+  margin-right: 59px;
+}
+
+.navigation_link:last-child {
+  margin: 0;
+}
+
+.navigation_link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.navigation_link_active {
+  text-decoration: underline gray;
+}

@@ -1,0 +1,32 @@
+.navigation_footer {
+  width: 450px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.footer_link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.footer_link:first-child {
+  margin: 0;
+}
+
+.footer_link:hover {
+  opacity: 0.5;
+}
+
+.text_footer {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 87px;
+  opacity: 0.5;
+  text-align: center;
+}
