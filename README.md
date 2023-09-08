@@ -1,3 +1,3 @@
-# metrika_2.0
+# metrika_old version
 
 https://stfee.github.io/metrika_2.0/
